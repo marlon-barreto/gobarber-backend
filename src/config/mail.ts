@@ -12,8 +12,8 @@ export default {
   driver: process.env.MAIL_DRIVER || 'ethereal',
   defaults: {
     from: {
-      email: 'no-reply@pazinatoti.com.br',
-      name: 'Pazinato TI',
+      email: 'secretaria@escolaabra.com.br',
+      name: 'Secretaria',
     },
   },
 } as IMailConfig;
